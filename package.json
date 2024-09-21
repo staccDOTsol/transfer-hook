@@ -4,8 +4,14 @@
         "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
     },
     "dependencies": {
-        "@coral-xyz/anchor": "^0.29.0",
-        "@solana/spl-token": "^0.4.0"
+        "@coral-xyz/anchor": "0.30.1",
+        "@orca-so/common-sdk": "^0.6.3",
+        "@orca-so/whirlpool-sdk": "^0.4.2",
+        "@orca-so/whirlpools-sdk": "0.11.6",
+        "@solana/spl-token": "^0.4.8",
+        "@solana/web3.js": "^1.95.3",
+        "decimal.js": "^10.4.3",
+        "rpc-websockets": "7.4.10"
     },
     "devDependencies": {
         "@types/bn.js": "^5.1.0",
